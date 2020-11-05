@@ -111,7 +111,6 @@ C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreap
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -138,3 +137,7 @@ C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\obj\Debug\netcoreap
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.genruntimeconfig.cache
+C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
+C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
