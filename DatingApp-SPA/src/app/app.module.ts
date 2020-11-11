@@ -1,5 +1,7 @@
+import { MemberEditResolver } from './_resolvers/member-edit.resolver';
+import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { MemberListResolver } from './_resolvers/member-list.resolver';
-import {  MemberDetailResolver } from './_resolvers/member-detail.resolver';
+import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
 import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 import { MemberCardComponent } from './members/member-card/member-card.component';
 import { User } from './_models/User';
@@ -25,7 +27,7 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
 import { TabsModule } from 'ngx-bootstrap/tabs';
-
+import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -41,34 +43,33 @@ export function tokenGetter() {
     ListsComponent,
     MessagesComponent,
     MemberCardComponent,
-    MemberDetailComponent
-    
+    MemberDetailComponent,
+    MemberEditComponent,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule, 
+    HttpClientModule,
     FormsModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes),
-  
+
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
-        allowedDomains:['localhost:5000'],
-        disallowedRoutes: ['localhost:5000/api/auth']
-
-      }
-    })
+        allowedDomains: ['localhost:5000'],
+        disallowedRoutes: ['localhost:5000/api/auth'],
+      },
+    }),
   ],
-  providers:
-  [
+  providers: [
     ErrorInterceptorProvider,
     MemberDetailResolver,
-    MemberListResolver
+    MemberListResolver,
+    MemberEditResolver,
+    PreventUnsavedChanges,
   ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
- 
