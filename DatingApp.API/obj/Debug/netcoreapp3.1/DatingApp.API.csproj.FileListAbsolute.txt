@@ -71,7 +71,6 @@ C:\Moamen\Learning\Learning Projects\DatingAppNeil\DatingApp.API\bin\Debug\netco
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\appsettings.Production.json
-C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\DatingApp.API.exe
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\DatingApp.API.deps.json
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\DatingApp.API.runtimeconfig.json
@@ -141,3 +140,5 @@ C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreap
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\DatingApp.API.styles.css
+C:\Moamen\Learning\Learning Projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
